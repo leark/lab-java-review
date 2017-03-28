@@ -34,6 +34,10 @@ public class Dog extends Animal
 		}
 	}
 
+	public void speak() {
+		System.out.println(this+ " speaks");
+	}
+
 	public String toString() {
 		return this.name+" the " +this.breed;
 	}
